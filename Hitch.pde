@@ -232,11 +232,8 @@ class Hitch extends Data implements Comparable{
     for (int j = 0;j < nodeParent.length;j++) {
       if (parentX[j] > 0) {
         
-      strokeWeight(.5);
-      if(id == 70) strokeWeight(5);
-      fill(266,0,0);ellipse(x,y,10,10);
-        stroke(0);
-       // line(x, y, parentX[j], parentY[j]);
+      strokeWeight(.05);
+        stroke(255,0,0);
         noFill();
         beginShape();
         vertex(x, y);
